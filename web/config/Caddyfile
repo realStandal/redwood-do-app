@@ -1,0 +1,9 @@
+:8080
+
+encode gzip
+
+header Cache-Control max-age=3600
+
+try_files {path} /index.html
+
+file_server
